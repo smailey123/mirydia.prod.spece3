@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color:#fff4f4;
+    background-color: #ffeaea;
 }
 header{
     background-image: url("https://img.tsn.ua/cached/825/tsn-8d1621a47e57f8d275b9b822fb9c4f13/thumbs/428x268/31/47/0f0a3006a6b942597e2aa6d254014731.jpg");
@@ -41,9 +41,14 @@ nav{
 }
 .art_ocn3{
     border-left:2px solid #000000;
+    padding-left:10px;
+    padding-top:17px;
 }
 .art_ocn2{
     margin: 20px;
+}
+.p_opus{
+    text-align:25px;
 }
  .art_ocn1{
      margin: 10px;
@@ -62,11 +67,12 @@ h2{
    width: 300px;
 }
 .h3_art{
-    font-size: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color:#000000;
 }
 .p_art{
-    font-size: 12px;
-    
+    font-size: 15px;
 }
 .img_art{
     height: 300px;
@@ -83,23 +89,37 @@ footer{
 }
 ul{
     font-size:14px;
+    margin:5px;
+    color:#870202;
 }
 .footer_article{
     border:2px solid #ffffff;
-    height: 120px ;
-    width: 200px;
+    height: 140px ;
+    width: 250px;
     padding: 7px;
 }
 .footer_p{
     font-size: 14px;
+    color:#870202;
 }
 .footer2_article{
     border:2px solid #ffffff;
-    height: 80px ;
-    width: 200px;
+    height: 140px ;
+    width: 290px;
     padding: 7px;
 }
 .footer_section{
     display:flex;
     justify-content: space-around;
+}
+.a_li{
+    color:#870202;
+    text-decoration:none;
+}
+.footer_img{
+    width: 50px;
+    margin: 5px;
+}
+.main_ul{
+    color:#000000;
 }
